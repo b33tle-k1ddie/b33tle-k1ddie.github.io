@@ -1,23 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     var quotes = [
-        "Стань успішним",
-        "Стань талановитим",
-        "Стань впливовим",
-        "Стань спритним",
-        "Стань винахідливим",
-        "Стань вмілим",
-        "Стань надійним",
-        "Стань цілеспрямованим",
-        "Стань відданим",
-        "Стань енергійним",
-        "Стань стратегічним",
-        "Стань креативним",
-        "Стань врівноваженим",
-        "Стань сильним",
-        "Стань допитливим",
-        "Стань дисциплінованим",
-        "Стань амбіційним",
-        "Стань рішучим"
+        "Aut viam inveniam aut faciam",
         // ... Додайте решту цитат тут
     ];
 
@@ -27,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         backSpeed: 10,
         backDelay: 2100,
         startDelay: 0,
-        loop: true,
+        loop: false,
         showCursor: false,
     };
     var typed = new Typed('#quote-container', options);
